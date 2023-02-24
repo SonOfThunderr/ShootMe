@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "b:\\unrealproyects\\shootme\\intermediate\\build\\win64\\unrealeditor\\inc\\shootme\\uht\\shootme.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "b:\\unrealproyects\\shootme\\intermediate\\build\\win64\\shootmeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "b:\\unrealproyects\\shootme\\intermediate\\build\\win64\\unrealeditor\\development\\shootme\\definitions.shootme.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
