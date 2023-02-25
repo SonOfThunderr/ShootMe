@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"B:/UnrealProyects/ShootMe/Content/Materials/BlackMaterial.uasset",
+				"B:/UnrealProyects/ShootMe/Content/Materials/BlueMaterial.uasset",
+				"B:/UnrealProyects/ShootMe/Content/Blueprints/MyShootMeGameModeBaseBp.uasset",
+				"B:/UnrealProyects/ShootMe/Content/Blueprints/MyMyCharacterBp.uasset",
+				"B:/UnrealProyects/ShootMe/Content/Input/IA_Flashlight.uasset",
+				"B:/UnrealProyects/ShootMe/Content/Levels/TestLevel.umap",
+				"B:/UnrealProyects/ShootMe/Content/_GENERATED/Jonathan/Box_B06EAF34.uasset"
+			]
+		}
+	]
+}
