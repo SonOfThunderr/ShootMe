@@ -3,6 +3,19 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Engine/World.h"
 
+AMyCharacter::AMyCharacter()
+{
+	cam = CreateDefaultSubobject<UCameraComponent>("Cam");
+	cam->bUsePawnControlRotation = true;//this is for get the pawn rotates with camera
+	cam->SetupAttachment(GetRootComponent());
+
+	arms = CreateDefaultSubobject<USkeletalMeshComponent>("Arms");
+	arms->SetupAttachment(cam);
+
+	weapon = CreateDefaultSubobject<USkeletalMeshComponent>("Weapon");
+	weapon->SetupAttachment(arms, "GripPoint");
+}
+
 void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMyCharacter::MoveForward);

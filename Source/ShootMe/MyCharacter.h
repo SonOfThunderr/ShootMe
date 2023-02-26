@@ -19,6 +19,10 @@ private:
 
 public:
 	UPROPERTY(EditAnywhere) float rotationSpeed = 45;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite) class UCameraComponent* cam;
+	UPROPERTY(VisibleAnywhere) class USkeletalMeshComponent* arms;
+	UPROPERTY(VisibleAnywhere) class USkeletalMeshComponent* weapon;
 
+	AMyCharacter();
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 };

@@ -38,7 +38,7 @@ public: \
 
 #define FID_UnrealProyects_ShootMe_Source_ShootMe_MyCharacter_h_10_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMyCharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AMyCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyCharacter) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyCharacter); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
@@ -51,8 +51,6 @@ public: \
 
 
 #define FID_UnrealProyects_ShootMe_Source_ShootMe_MyCharacter_h_10_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMyCharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyCharacter(AMyCharacter&&); \
@@ -60,7 +58,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyCharacter); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyCharacter) \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyCharacter) \
 	NO_API virtual ~AMyCharacter();
 
 
