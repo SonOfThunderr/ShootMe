@@ -9,9 +9,12 @@
 				"B:/UnrealProyects/ShootMe/Content/Materials/BlueMaterial.uasset",
 				"B:/UnrealProyects/ShootMe/Content/Blueprints/MyShootMeGameModeBaseBp.uasset",
 				"B:/UnrealProyects/ShootMe/Content/Blueprints/MyMyCharacterBp.uasset",
-				"B:/UnrealProyects/ShootMe/Content/Input/IA_Flashlight.uasset",
 				"B:/UnrealProyects/ShootMe/Content/Levels/TestLevel.umap",
-				"B:/UnrealProyects/ShootMe/Content/_GENERATED/Jonathan/Box_B06EAF34.uasset"
+				"B:/UnrealProyects/ShootMe/Content/_GENERATED/Jonathan/Box_B06EAF34.uasset",
+				"B:/UnrealProyects/ShootMe/Content/Blueprints/HandsAnimations.uasset",
+				"B:/UnrealProyects/ShootMe/Content/FirstPerson/Input/IMC_Default.uasset",
+				"B:/UnrealProyects/ShootMe/Content/Blueprints/Enemy.uasset",
+				"B:/UnrealProyects/ShootMe/Content/Input/IA_Flashlight.uasset"
 			]
 		}
 	]
